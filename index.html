@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>水晶のささやきと箒</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- <link rel="stylesheet" href="css/hamburgers.min.css"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Shippori+Mincho+B1&family=Zen+Kaku+Gothic+New&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cab4448e3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick-custom.css">
+    <link rel="stylesheet" href="css/btt.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- <div class="common-container header-container"> -->
+        <div class="header_bg">
+            <div class="site" width="80" height="80">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="" width="80" height="80">
+                </a>
+            </div>
+            <div class="iventTitle">
+                <p>魔女好きが集う魔法のイベント</p>
+                <h1>水晶のささやきと箒</h1>
+
+            </div>
+            <button class="nav-btn menu_btn" onclick="document.querySelector('html').classList.toggle('open');
+                document.querySelector('.nav-btn').classList.toggle('is-active')">
+                <img src="images/menu_btn.png" alt="メニューボタン" width="50" height="50" class="menu-icon">
+                <img src="images/close_btn.png" alt="閉じるボタン" width="50" height="50" class="close-icon">
+                <!--<span class="fa-sr-only">Menu</span>-->
+            </button>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">ＴＯＰ</a></li>
+                <li><a href="concept.html">コンセプト</a></li>
+                <li><a href="shoplist.html">出展者情報</a></li>
+                <li><a href="">ＢＬＯＧ</a></li>
+                <li><a href="">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- ヒーローイメージ -->
+    <section class="hero">
+
+        <img src="images/hero.jpg" alt="ヒーローイメージ" width="1280" height="400">
+        <h2 class="heroComment">不思議の箒を一掃きすれば&nbsp;&nbsp;現れ出る不思議の横道<br>
+            今こそ道は開かれた&nbsp;&nbsp;手に手を取り合い遊び来よ</h2>
+    </section>
+    <!-- 過去の写真 -->
+    <section class="photo">
+        <div class="photo-container">
+            <div class="photo-list">
+                <div>
+                    <img src="images/slideimage/entrance_300.jpg" alt="過去のイベント写真1" width="300" height="200">
+                </div>
+                <div>
+                    <img src="images/slideimage/magic_300.jpg" alt="過去のイベント写真2" width="300" height="200">
+                </div>
+                <div>
+                    <img src="images/slideimage/photospot03_300.jpg" alt="過去のイベント写真3" width="300" height="200">
+                </div>
+                <div>
+                    <img src="images/slideimage/study02_300.jpg" alt="過去のイベント写真4" width="300" height="200">
+                </div>
+                <div>
+                    <img src="images/slideimage/studyroom02_300.jpg" alt="過去のイベント写真5" width="300" height="200">
+                </div>
+                <div>
+                    <img src="images/slideimage/tree_300.jpg" alt="過去のイベント写真6" width="300" height="200">
+                </div>
+            </div>
+            <div class="link-btn-container">
+                <button class="link-btn">
+                    <a href="past.html">ＭＯＲＥ</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- news -->
+    <section class="news common-container">
+        <div class="sectiontitle">
+            <figure>
+                <img src="images/news.png" alt="news" width="80" height="60">
+            </figure>
+            <h2>更新履歴</h2>
+        </div>
+
+
+        <div class="news-container">
+            <ul>
+                <li><time datetime="2026-03-01">2026年03月01日</time><br>
+                    水晶のささやきと箒Webサイト公開
+                </li>
+                <li><time datetime="2026-03-01">2026年03月01日</time><br>
+                    水晶のささやきと箒Webサイト公開
+                </li>
+                <!--<li><time datetime="2026-03-01">2026年03月01日</time><br>
+                    水晶のささやきと箒Webサイト公開
+                </li>
+                <li><time datetime="2026-03-01">2026年03月01日</time><br>
+                    水晶のささやきと箒Webサイト公開
+                </li>-->
+            </ul>
+        </div>
+
+
+    </section>
+    <!-- イベント情報 -->
+    <section class="iventInfo">
+        <div class="iventInfo-container common-container">
+            <div class="sectiontitle">
+                <figure>
+                    <img src="images/iventIcon.png" alt="アイコン" width="100" height="100">
+                </figure>
+                <h2>イベント情報</h2>
+            </div>
+            <figure>
+                <img src="images/ivent_f.jpg" alt="イベントチラシ画像" width="600" height="750">
+            </figure>
+            <div class="iventInfo-text">
+                <table>
+                    <tr>
+                        <th>イベント名</th>
+                        <td>水晶のささやきと箒３</td>
+                    </tr>
+                    <tr>
+                        <th>開催日</th>
+                        <td>2026年4月25日（土）</td>
+                    </tr>
+                    <tr>
+                        <th>開催時間</th>
+                        <td>10：30～15：00</td>
+                    </tr>
+                    <tr>
+                        <th>会場</th>
+                        <td>プラサヴェルデ（キラメッセぬまづ）1階&nbsp;市民サロン</td>
+                    </tr>
+                    <tr>
+                        <th>入場料</th>
+                        <td>無料</td>
+                    </tr>
+                </table>
+                <div class="link-btn-container">
+                    <button class="link-btn shoplist-btn">
+                        <a href="shoplist.html">出展者情報</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- アクセス -->
+    <section class="access">
+        <div class="access-container common-container">
+            <div class="sectiontitle">
+                <figure>
+                    <img src="images/accessIcon.png" alt="アイコン" width="100" height="100">
+                </figure>
+                <h2>アクセス</h2>
+            </div>
+            <p>
+                静岡県沼津市大手町１－１－４<br>
+                プラサヴェルデ（キラメッセぬまづ）1階&nbsp;市民サロン
+            </p>
+            <div class="map">
+                <!-- googleMap -->
+                <div class="iframe_wrap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.0995558331483!2d138.85900937522428!3d35.10422486145569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60198560b4635fbb%3A0xe365db1abaac5fd!2z44CSNDEwLTA4MDEg6Z2Z5bKh55yM5rK85rSl5biC5aSn5omL55S677yR5LiB55uu77yR4oiS77yU!5e0!3m2!1sja!2sjp!4v1771484333783!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="acces-list">
+
+                <div class="access-list-box">
+                    <div class="accessText">
+                        <h3>お車でお越しの方</h3>
+                        <p>沼津ICより約15分<br>
+                            会場駐車場は事前精算時にお車のナンバーが必要です。写真やメモのご用意をお勧めします。割引券をお渡ししますので、ご希望の方は本部へお声がけください。
+                        </p>
+                    </div>
+                </div>
+                <div class="access-list-box">
+                    <div class="accessText">
+                        <h3>列車でお越しの方</h3>
+                        <p>JR沼津駅北口より徒歩３分<br>
+                            改札口を出てまっすぐ（駅を背に右手側へ）お進みください。
+                            商業施設Biviさま、コンベンションぬまづの前を通り、一番奥の建物が会場のキラメッセぬまづとなります。
+                        </p>
+                    </div>
+                </div>
+                <div class="access-list-box">
+                    <div class="accessText">
+                        <h3>箒でお越しの方</h3>
+                        <p>コンベンションぬまづの屋上より３分<br>
+                            当日の天候を十分ご確認ください。
+                            専用の箒置き場を設置しております。駐箒券を発券いたしますので本部スタッフにお申し付けください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="link-btn-container">
+                <button class="link-btn">
+                    <a href="">お問合せ</a>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-containaer common-container">
+
+            <div class="logoandsns">
+                <div class="footer-site" width="80" height="80">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="" width="70" height="70">
+                    </a>
+                </div>
+                <div class="snsIcon">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </div>
+            </div>
+            <ul class="footer-menu">
+                <li><a href="index.html">ＴＯＰ</a></li>
+                <li><a href="concept.html">コンセプト</a></li>
+                <li><a href="shoplist.html">出展者情報</a></li>
+                <li><a href="">ＢＬＯＧ</a></li>
+                <li><a href="">お問い合わせ</a></li>
+                <li><a href="privacy.html">個人情報の取り扱い</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                &copy;2026&nbsp;水晶のささやきと箒&nbsp;&nbsp;&nbsp;ヂオロクの箱庭
+            </div>
+        </div>
+    </footer>
+    <div id="btt">
+        <a href="#">
+            <img src="images/backtotop.png" alt="上にもどるボタン">
+        </a>
+    </div>
+    <!--<div id="pos"></div>-->
+    <!-- ＊＊＊＊＊＊JavaScript＊＊＊＊＊＊ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 上へ戻るボタン -->
+    <script src="js/btt.js"></script>
+
+    <!-- スライダー -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick-custom.js"></script>
+
+</body>
+
+</html>
