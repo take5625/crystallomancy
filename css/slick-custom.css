@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.photo-list {
+	opacity: 0;
+	transition: 3s;
+}
+
+.slick-initialized {
+	opacity: 1;
+}
+
+.slick-dots {
+	position: absolute;
+	bottom: -3rem;
+	left: -1.3rem;
+}
+
+.slick-dots li button::before {
+	font-size: 2rem;
+	color: #fff;
+}
+
+@media(max-width:900px) {
+	.slick-dots li button::before {
+		font-size: 3rem;
+	}
+}
+
+.slick-prev,
+.slick-next {
+	&::before {
+		font-family: 'FontAwesome';
+		font-size: 2rem;
+		color: #B67B03;
+	}
+}
+
+.slick-prev {
+	z-index: 1;
+
+	&::before {
+		content: '\f0d9';
+	}
+}
+
+.slick-next {
+	right: 1rem;
+
+	&::before {
+		content: '\f0da';
+	}
+}
