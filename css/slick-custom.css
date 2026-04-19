@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.slick-slide img {
+	margin: 0 auto;
+	/*display: block;*/
+}
+
 .photo-list {
 	opacity: 0;
 	transition: 3s;

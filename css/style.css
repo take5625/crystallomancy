@@ -89,7 +89,8 @@ ul {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .header h1 {
-        font-size: clamp(1.5rem, 0.75rem + 1.5625vw, 1.75rem);
+        /*font-size: clamp(1.5rem, 0.75rem + 1.5625vw, 1.75rem);*/
+        font-size: clamp(1.5rem, 1.1538rem + 1.5385vw, 3rem);
         min-height: 0vw;
     }
 
@@ -116,7 +117,8 @@ ul {
     display: block;
     font-family: "Hina Mincho", serif;
     font-weight: bold;
-    font-size: clamp(1rem, 0.8846rem + 0.5128vw, 1.5rem);
+    /*font-size: clamp(1rem, 0.8846rem + 0.5128vw, 1.5rem);*/
+    font-size: clamp(0.875rem, 0.125rem + 1.5625vw, 1.125rem);
     min-height: 0vw;
     line-height: 2.5rem;
 }
@@ -163,7 +165,7 @@ ul {
     display: revert;
 }
 
-@media(min-width:900px) {
+@media(min-width:1025px) {
 
     /* タブレット横・PCサイズ時にはハンバーガーメニューを消す */
     .nav-btn {
@@ -202,7 +204,7 @@ ul {
 }*/
 
 /* スマホ時 */
-@media(max-width:900px) {
+@media(max-width:1024px) {
     .nav {
         display: block;
         position: absolute;
@@ -670,5 +672,108 @@ th {
 
         line-height: 1.4;
     }
+}
 
+/*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+パンくずリスト
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊*/
+.breadcrumb ul {
+    display: flex;
+    line-height: 3rem;
+}
+
+/*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+コンセプトページ　ここから
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊*/
+.about {
+    margin-bottom: 3rem;
+}
+
+.about .contents figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .contents figure img {
+    border: solid 3px #D4AF37;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.venue_photo figure {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(min-width:900px) {
+    .venue_photo {
+        display: flex;
+
+    }
+
+    .venue_photo figure {
+        margin: 0 1rem;
+    }
+
+    .diorock_contents {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+/*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+出展者情報ページ　ここから
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊*/
+.shoplist figure {
+    text-align: center;
+}
+
+.shoplist figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.genreIcon {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+}
+
+.genreIcon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shoplist .handmadeG img {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.spiritualG img {
+    margin: 0.5rem;
+}
+
+.relaxationG img {
+    margin: 0.5rem;
+}
+
+.relaxationG {
+    margin-bottom: 3rem;
+}
+
+@media(max-width:900px) {
+    .handmadeG img {
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+    }
 }
